@@ -1,0 +1,23 @@
+{
+  "name": "urllite",
+  "version": "0.5.0",
+  "authors": [
+    "Matthew Tretter <m@tthewwithanm.com>"
+  ],
+  "description": "A JavaScript URL parser.",
+  "main": "browser-builds/standalone/urllite-full.js",
+  "keywords": [
+    "url",
+    "parsing",
+    "parser"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hzdg/urllite.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

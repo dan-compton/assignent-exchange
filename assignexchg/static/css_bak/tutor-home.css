@@ -1,0 +1,30 @@
+.container
+{
+    display:table;
+    width: 100%;
+    padding: 50px 0 0 0; /*set left/right padding according to needs*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.row
+{
+    height: 100%;
+    display: table-row;
+}
+.col-md-3.no-float, .col-md-9.no-float {
+    float: none; /* thanks baxabbit */
+}
+.col-md-3
+{
+    display: table-cell;
+    background: pink;
+}
+.col-md-9
+{
+    display: table-cell;
+    background: yellow;
+    float: none;
+}
+
+

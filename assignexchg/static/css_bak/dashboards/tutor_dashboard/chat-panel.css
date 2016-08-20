@@ -1,0 +1,371 @@
+.tutor-subject{
+    margin-left:2px;
+    font-weight:200;
+}
+
+.chat-notification{
+    width:300px;
+    margin:0 auto;
+    text-align:center;
+    font-size:15px;
+    opacity:0.7;
+}
+
+.chat-panel{
+   border:0; 
+   height:100%;
+   margin:0;
+   padding:0;
+}
+
+.chat-panel .panel-footer{
+    display:block
+}
+.chat-panel .panel-body{
+    padding:0;
+    height:calc(100vh - 150px);
+}
+
+.chat-panel ul, li{
+    list-style-type:none;
+    font-size:18px;
+    font-weight:200;
+    padding:0;
+}
+
+.chat-panel li{
+    width:99%;
+    padding:0;
+    margin-left:3px;
+    border-radius:0px;
+    padding:10px 10px 10px 10px;
+    background:rgba(0,10,10,0.0) !important;
+}
+
+/*
+    STYLES FOR MESSAGES
+*/
+.message-profileimage img{
+    width:60px;
+    border-radius:3px;
+}
+
+
+/*
+    STYLES FOR MESSAGES (TUTORS)
+*/
+.tutor-message .message-header{
+    min-width:300px;
+}
+
+.tutor-message .message-header{
+    padding:0;
+    margin:0;
+    font-size:20px;
+    padding:0px 5px 5px 5px;
+    margin-left:20px;
+}
+
+.tutor-message .message-profileimage img{
+    width:60px;
+    border-radius:3px;
+}
+
+.tutor-message i{
+    color:red;
+}
+
+.tutor-message .message-footer{
+    margin-top:-20px;
+    float:left; 
+    margin-left:90px;
+    opacity:0.6;
+}
+.tutor-message .message-footer i{
+   margin-left:5px; 
+   font-size:14px;
+}
+
+.tutor-message blockquote{
+    overflow:hidden;
+    padding-top:10px;
+    border-radius:5px;
+    font-size:15px;
+    max-width:800px;
+}
+
+.tutor-message .message-header{
+    font-size:15px;    
+    border-radius:5px;
+    line-height:15px;
+    padding:0px;
+}
+
+.tutor-message .assignment {
+    margin-top:40px;
+    margin-left:0;
+}
+
+.tutor-message .file img{
+    display:block;
+    width:auto;
+    height:auto;
+    margin:auto;
+}
+
+.tutor-message .message-body{
+    width:auto;
+}
+
+.tutor-message .file a{
+    font-size:20px;
+    line-height:48px;
+}
+
+
+.chat-panel li #username{
+    float:left;
+    color:#333;
+    font-size:14px;
+    padding-right:5px;
+}
+
+/*
+    GENERAL MESSAGING STYLES
+
+*/
+
+.message-header{
+    min-width:300px;
+    padding:0;
+    margin:0;
+    font-size:20px;
+    padding:0px 5px 5px 5px;
+    margin-left:20px;
+    line-height:20px;
+}
+
+.message-header i{
+    float:left;
+    padding-right:3px;
+    color:#333;
+}
+
+.message-footer{
+    margin-top:-20px;
+    float:left; 
+    margin-left:90px;
+    opacity:0.6;
+}
+.student-message .message-footer i{
+   margin-left:5px; 
+   font-size:14px;
+}
+
+.message-body blockquote{
+    overflow:hidden;
+    padding-top:10px;
+    border-radius:5px;
+    font-size:15px;
+    max-width:800px;
+}
+
+ 
+.assignment {
+    margin-top:40px;
+    margin-left:0;
+}
+
+.file img{
+    display:block;
+    width:auto;
+    height:auto;
+    margin:auto;
+}
+
+.message-body{
+    width:auto;
+}
+
+.file a{
+    font-size:20px;
+    line-height:48px;
+}
+
+
+/* 
+    STUDENT 
+    MESSAGING STYLES
+*/
+
+.student-message .message-header{
+    min-width:300px;
+}
+.student-message i{
+    color:red;
+}
+
+.student-message .message-footer{
+    margin-top:-20px;
+    float:left; 
+    margin-left:90px;
+    opacity:0.6;
+}
+.student-message .message-footer i{
+   margin-left:5px; 
+   font-size:14px;
+}
+
+.student-message blockquote{
+    overflow:hidden;
+    padding-top:10px;
+    border-radius:5px;
+    font-size:15px;
+    max-width:800px;
+}
+
+.student-message .message-header{
+    font-size:15px;    
+}
+ 
+.student-message .assignment {
+    margin-top:40px;
+    margin-left:0;
+}
+
+.student-message .file img{
+    display:block;
+    width:auto;
+    height:auto;
+    margin:auto;
+}
+
+.student-message .message-body{
+    width:auto;
+}
+
+.student-message .file a{
+    font-size:20px;
+    line-height:48px;
+}
+
+
+
+/*
+    OVERRIDING
+    STYLES FOR ASSIGNMENTS RENDERED AS MESSAGES
+*/
+li.assignment-list-item h1{
+    background-color:rgba(21, 83, 125, 1);
+    color:white;
+    border-radius:3px;
+    padding:10px 20px 10px 20px;
+    margin-top:0px;
+    font-size:25px;
+}
+li.assignment-list-item {
+    border-radius:3px;
+    padding:0;
+    padding-right:10px;
+    padding-left:10px;
+    border-bottom:2px solid #eee !important;
+}
+
+.assignment-list-item .btn{
+    line-height:15px;
+    margin-top:-3px;
+    font-size:16px;
+}
+
+.assignment .message-body{
+    width:100% !important;
+}
+
+.assignment .message-body pre{
+    width:100%;
+    border:0;
+}
+
+.assignment .message-header{
+    overflow:hidden;
+}
+
+.assignment .well{
+    margin-left:35px;
+    background-color:#f3f3fe;
+    padding:20px 20px 20px 20px;
+
+}
+
+
+
+
+.chat-panel li #time{
+    color:#ccc;
+    font-size:14px;
+    float:left;
+}
+
+.chat-panel li .arrow-up {
+    width: 0; 
+    height: 0; 
+    width: 0; 
+    height: 0; 
+    color:rgba(217,237,247,0.3);
+    border-top: 0px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-right:20px solid rgba(217,237,247,0.3);
+    margin-left:-30px; 
+    margin-top:-10px;
+}
+
+
+.chat-panel li .well{
+    padding:5px 5px 5px 5px;
+}
+
+
+.chat-footer{
+    display:block;
+    width:100%;
+    border-radius:0px;
+    padding:0px;
+    overflow:hidden;
+}
+
+.chat-footer .chat-input-row{
+    width:100%;
+    overflow:hidden;
+}
+.chat-footer #chatOptions{
+    background-color:#222;
+    padding:0px;
+    float:left;
+}
+
+.chat-footer #chatOptions i{
+    padding:20px 20px 20px 20px;
+}
+
+.chat-footer #chatOptions:hover{
+    background-color:#333;
+    cursor:pointer;
+}
+
+
+.chat-footer #chatTextArea {
+    color:#333;
+    width:100%;
+    font-size:20px;
+    height:48px;
+    width:calc(100% - 51px);
+    overflow:hidden;
+}
+
+.chat-footer textarea, input{
+    padding-left:10px;
+    height:100%;
+    resize:vertical;
+    width:100%;
+}
+

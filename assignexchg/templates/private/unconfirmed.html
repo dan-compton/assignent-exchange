@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="body-content">
+    <div class="row landing-row">
+        <div class="col-sm-3 text-center">
+        </div>
+        <div class="col-sm-6 text-center">
+            <div class="row" id="dacenter">
+                <div class="col-sm-12 text-center" id="brand">
+                    <div class="row">
+                        <div id="brand-minimal">
+                            <div class="col-sm-12 text-center brand-img">
+                                <!--<img src="/static/images/landing_page/logo.png" height=100/>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-center brand-text">
+                            DiveIn
+                            <div>
+                                <i class="fa fa-code"></i>
+                                <i class="fa fa-blah"></i>
+                                <i class="fa fa-mortar-board"></i>
+                                <i class="fa fa-blah"></i>
+                                <i class="fa fa-money"></i>
+                            </div>
+                            <p>a new way to learn computer science</p>
+                        </div>
+                        <div class="col-sm-12 text-center brand-info">
+                            <div class="well well-default login-well">
+                                    <h2 class="form-signin-heading">Beta Login</h2>
+                                    <p className="alert alert-info" id="info">
+                                        Uh oh! Looks like you haven't confirmed your email address.  Please check your inbox and click the link to continue."
+                                    </p>
+                                     
+                                <button class="btn btn-lg btn-primary btn-block" id="button-resend-confirmation-email">Resend Confirmation Email</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 text-center">
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+   $("#button-resend-confirmation-email").click(function(){ 
+        $.get( "/users/send_confirmation", function( data ) {
+                $("#button-resend-confirmation-email").remove();
+                $("#info").empty();
+                $("#info").text("Email Confirmation Sent");
+
+        });
+    });
+
+</script>
+{% endblock %}
+

@@ -1,0 +1,109 @@
+/* 
+ *
+ * Nav
+ */
+.navbar{
+    margin-bottom:0;
+    /*background-color: rgba(0,0,0,0.0) !important;*/
+    background-color:rgba(0,0,0,0);
+
+    color:black;
+}
+.navbar-brand img{
+}
+body > div.container-code-bg > nav{
+    padding-bottom:10px;
+    border-bottom:12px solid rgba(255,255,255,1) !important;
+    margin:0;
+     -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);   
+
+
+    background: rgb(21,83,125); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(21,83,125,1) 0%, rgba(32,113,158,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(21,83,125,1)), color-stop(100%,rgba(32,113,158,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(21,83,125,1) 0%,rgba(32,113,158,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(21,83,125,1) 0%,rgba(32,113,158,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(21,83,125,1) 0%,rgba(32,113,158,1) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(21,83,125,1) 0%,rgba(32,113,158,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15537d', endColorstr='#20719e',GradientType=1 ); /* IE6-9 */
+
+}
+
+.navbart-brand{
+   color:white !important; 
+   padding:0px;
+   padding-top:2px;
+   padding-left:5px;
+   margin-left:5px !important;
+
+}
+
+.navbar-brand span{
+    position:absolute;
+}
+.navbar-links{
+}
+.navbar-link{
+    color:white !important;
+    font-size:1.5em;
+    float:left;
+}
+
+.navbar-form input[type="text"],
+.navbar-form input[type="password"] {
+  width:120px;
+  border-radius:5px !important;
+  background-color:white;
+  margin-left:2px;
+  height:35px;
+  margin-right:2px;
+  border:1px solid rgba(0,0,0,0.4) !important;
+  float:left;
+   border:1px solid rgba(255,244,244,0.1);
+     -webkit-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.1);   
+
+
+}
+.navbar-form span{
+
+}
+.navbar-collapse {
+    border-color:#9db8cc !important;
+
+}
+.navbar-inverse, .navbar-collapse, .navbar-form {
+    border:0px !important;
+    border-color:#9db8cc !important;
+}
+.navbar-toggle{
+    border-color:#9db8cc !important;
+}
+
+    
+.btn-default-login{
+    color:white;
+    background-color:rgba(45,122,170,1) !important;
+    border-radius:5px !important;
+    text-align:center !important;
+    font-size:18px;
+    height:35px;
+    line-height:18px;
+    border:1px solid rgba(255,244,244,0.1);
+     -webkit-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.1);   
+
+
+
+}
+
+.btn-default-login:hover {
+    color:white;
+    background-color:rgba(255,255,255,0.1) !important;
+}
+
+

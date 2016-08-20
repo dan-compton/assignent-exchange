@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256.6 322" enable-background="new 0 0 256.6 322" xml:space="preserve">
+<circle fill="#336699" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" cx="128.3" cy="128.3" r="125.8"/>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="93.1,135.7 42.6,146.3 42,87.8 92.9,87.8 
+	"/>
+<polygon id="keyboard" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="159.5,166.3 97.2,161.3 
+	106.9,149 158,148.3 "/>
+<text transform="matrix(1 0 0 1 56.5587 304.8344)" fill="#FFFFFF" font-family="'Seravek-Light'" font-size="59.3255">learn</text>
+<rect x="101.5" y="87.8" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" width="64.5" height="47.4"/>
+<polygon fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" points="175.3,135.3 221.6,145.5 221.9,87.6 
+	174.7,87.8 "/>
+<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="211.2" y1="176.6" x2="26.9" y2="166.3"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="211.2" y1="176.6" x2="219.9" y2="152.1"/>
+<text transform="matrix(1.1695 0 0 1 119.0455 129.1877)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="53.6662">$</text>
+<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M182.7,159.6c-3.5-2.3-4.9-7.3-8.6-7.5
+	c-3.8-0.2-7.3,1.8-5.5,3.5c5.5,5.4,0.1,9.5,1.2,10.4C173.5,169,188.3,163.2,182.7,159.6z"/>
+</svg>

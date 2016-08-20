@@ -1,0 +1,121 @@
+
+{% extends "dashboard-layout.html" %}
+
+{% block dashboardwidgets %}
+        
+        <a class="sidebar-brand" href="index.html">
+            <img src="/static/images/logo.svg" />
+        </a>
+
+
+        <li class="widget-sidenav active" id="profile">
+                <a href="#" class="widget-sidenav-header" aria-expanded="true">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src={{current_user.profile_image}} />
+                                {{current_user.username}}
+                            </td>
+                            <td>
+                                <i class="fa fa-angle-down"></i>
+                            </td>
+                        </tr>
+                    </table>
+                </a>
+                    
+                    <ul class="collapse" aria-expanded="true">
+                        <li>
+                            <div class="panel panel-default widget-sidenav">
+                                <div class="panel-body" id="user-profile-links">
+                                    <table id="account">
+
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+ 
+
+        <li class="widget-sidenav" id="assignments">
+            <a href="#" aria-expanded="false">
+                Assignments <i class="fa fa-angle-down"></i>
+            </a>
+ 
+                <ul aria-expanded="false" class="collapse">
+                    <li>
+                        <div class="panel panel-default widget-sidenav">
+                            <div class="panel-body">
+                                <div id="assignment-channels">
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+         </li>
+            <li class="widget-sidenav">
+                    <a href="#" aria-expanded="false">
+                        Subjects <i class="fa fa-angle-down"></i>
+                    </a>
+ 
+                    <ul class="collapse" aria-expanded="false">
+                        <li>
+                            <div class="panel panel-default widget-sidenav">
+                                <div class="panel-body">
+                                    <div id="tutor-channels">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+        
+            <!--
+             <li class="widget-sidenav" style="">
+                    <a href="#" aria-expanded="false">
+                        Friends <i class="fa fa-angle-down"></i>
+                    </a>
+ 
+                    <ul class="collapse" aria-expanded="false">
+                        <li>
+                            <div class="panel panel-default widget-sidenav">
+                                <div class="panel-body">
+                                    <div id="user-list">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            -->
+        </li>
+
+{%endblock%}
+ 
+{% block content %}
+    <div id="firepad"></div>
+    <div id="content-widgets"></div>
+{% endblock %}
+
+{% block js_include %}
+            <!--
+            <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/metisMenu/2.1.0/metisMenu.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.2.0/codemirror.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.2.0/codemirror.css"/>
+            -->
+
+                
+            <script type="text/javascript" charset="utf-8">
+                    $("#side-menu").metisMenu();
+           </script>
+{%endblock%}
+
+
+{% block css_include %}
+
+{% endblock %}

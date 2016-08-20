@@ -1,0 +1,178 @@
+/*
+ *  Landing page and Home Page
+ *
+ */
+
+html,body{
+    height:100vh;
+    background-color: #0E3B58;;
+    margin:0;
+}
+img {
+    margin:0 auto;
+}
+#dacenter{
+    width:100%;
+    min-height:500px;
+    border-radius:5px;
+}
+
+.row {
+    margin:0;
+    padding:0;
+    line-height:40px;
+}
+
+@media (min-width: 768px)
+{
+    .col-sm-6{
+        width:100%;
+    }
+}
+
+.landing-row{
+    margin-top:0vh;
+}
+
+
+.brand-text{
+    font-family:'Dosis', sans-serif;
+    font-weight:400;
+    font-size:50px;
+    padding-top:10px;
+}
+
+.brand-text p{
+    font-weight:300;
+    font-size:20px;
+    margin:0;
+    padding:0;
+}
+.brand-text div{
+    margin-top:10px;
+}
+.brand-text i{
+    color:white;
+    padding-left:5px;
+    padding-right:5px;
+    width:40px;
+    font-size:25px;
+}
+
+#brand{
+    min-width:350px;
+    font-size:30px;
+    line-height:100px;
+    color:rgba(255,255,255,0.9);
+    padding:10px 10px 10px 10px;
+}
+
+#brand-minimal{
+    margin:0 auto;
+}
+
+#login{
+    max-width:500px;
+    font-size:30px;
+    line-height:100px;
+    color:white;
+}
+
+.brand-info{
+    margin-top:20px;
+}
+
+.brand-info .btn-default{
+    height:50px;
+    font-size:25px;
+    font-weight:400;
+    font-family:'Lato', sans-serif;
+    margin-top:30px;
+    color:white;
+    background:rgba(0,0,0,0.1);
+    border-top:1px solid rgba(255,255,255,0.07);
+    border-left:1px solid rgba(0,0,0,0.05);
+    border-right:1px solid rgba(0,0,0,0.05);
+    border-bottom:2px solid rgba(0,0,0,0.2);
+    border-radius:5px;
+}
+
+.brand-info .btn-default:hover{
+    background:rgba(0,0,0,0.2);
+}
+
+.register-well label{
+    font-size:20px;
+}
+
+.login-well{
+    background:rgba(255,255,255,0.9);
+    border:1px solid #333;
+    border-radius:2px;
+    color:#333;
+    padding:20px 20px 20px 20px;
+    overflow:hidden;
+    max-width:500px;
+    margin:0 auto;
+}
+
+.login-well h2{
+    padding-top:0px;
+    margin-top:0px;
+    font-weight:200;
+    color: #0E3B58;
+}
+
+.login-well .form-control{
+    margin-bottom:5px;
+}
+.login-well .form-group{
+    padding:0;
+    margin:0;
+}
+
+.login-well .form-control{
+    height:50px !important;
+     font-weight:400;
+    font-family:'Lato', sans-serif;
+    display:inline;
+    font-size:20px !important;
+}
+
+.login-well p{
+    font-size:14px;
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.login-well .btn{
+   background-color:#3590C9 !important;
+   border:1px solid rgba(0,0,0,0.3);
+   border-radius:2px;
+}
+
+.login-well .btn:hover{
+    opacity:0.9;
+}
+.login-well a{
+    padding-left:10px;
+    padding-right:10px;
+    opacity:0.5;
+    text-decoration:none;
+    color: #0E3B58 !important;
+}
+
+.flash_messages ul{
+    margin:0;
+    padding:0;
+    max-width:500px;
+    margin:0 auto;
+}
+
+.flash_messages div.alert{
+    padding:5px 5px 5px 5px;
+    color:rgba(255,255,255,0.8);
+    border-radius:2px;
+    background-color:rgba(255,255,255,0.2);
+    border:1px solid rgba(255,255,255,0.1);
+}

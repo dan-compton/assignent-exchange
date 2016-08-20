@@ -1,0 +1,75 @@
+
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+
+<title>{% block page_title %}
+    divein.io
+
+    {% endblock %}
+
+</title>
+<meta name="description" content="{% block meta_description %}{% endblock %}">
+<meta name="author" content="{% block meta_author %}{% endblock %}">
+
+<!-- Mobile viewport optimized: h5bp.com/viewport -->
+<meta name="viewport" content="width=device-width">
+
+<link href='//fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='libs/font-awesome4/css/font-awesome.min.css') }}">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js">
+<script>window.jQuery || document.write('<script src="{{url_for('static', filename='jquery.js') }}">\x3C/script>')</script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+
+{% assets "css_all" %}
+<link rel="stylesheet" href="{{ ASSET_URL }}">
+<link href='//fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,700,500italic,700italic' rel='stylesheet' type='text/css'>
+{% endassets %}
+
+{% assets "js_all" %}
+<script type="text/javascript" src="{{ ASSET_URL }}"></script>
+{% endassets %}
+
+
+{% block css %}{% endblock %}
+
+</head>
+<body class="{% block body_class %}{% endblock %}">
+<div class="container-code-bg">
+    {% block body %}
+    {% with form=form  %}
+    {% endwith %}
+    <header>{% block header %}{% endblock %}</header>
+    {% block jumbotron %}
+    {% endblock %}
+
+</div>
+<div class="{% block content_class %}container-full{% endblock content_class %}">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div class="row alerts-row">
+        <div class="col-md-12">
+        </div><!-- end col-md -->
+
+    </div><!-- end container -->
+    {%endif%}
+    {%endwith%}
+
+    {% block content %}{% endblock %}
+
+
+    {% block js %}{% endblock %}
+    <!-- end scripts -->
+    {% endblock %}
+    </body>
+    </html>
+

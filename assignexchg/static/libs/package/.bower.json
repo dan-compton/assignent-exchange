@@ -1,0 +1,8 @@
+{
+  "name": "package",
+  "main": "index.json",
+  "_source": "/home/nogrammar/Work/assignment-exchange/package.json",
+  "_target": "*",
+  "_originalSource": "./package.json",
+  "_direct": true
+}

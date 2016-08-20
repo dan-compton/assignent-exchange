@@ -1,0 +1,111 @@
+
+{% extends "dashboard-layout.html" %}
+
+{% block dashboardwidgets %}
+        
+        <a class="sidebar-brand" href="index.html">
+            <img src="/static/images/logo.svg" />
+        </a>
+
+
+        <li class="widget-sidenav active" id="profile">
+                <a href="#" class="widget-sidenav-header">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src={{current_user.profile_image}} />
+                                {{current_user.username}}
+                            </td>
+                            <td>
+                                <i class="fa fa-angle-down"></i>
+                            </td>
+                        </tr>
+                    </table>
+                </a>
+                    
+                    <ul class="collapse in">
+                        <li>
+                            <div class="panel panel-default widget-sidenav">
+                                <div class="panel-body" id="user-profile-links">
+                                    <table id="account">
+
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+ 
+
+        <li class="widget-sidenav active" id="assignments">
+            <a href="#">
+                Assignments <i class="fa fa-code"></i>
+            </a>
+ 
+                <ul class="collapse in">
+                    <li>
+                        <div class="panel panel-default widget-sidenav">
+                            <div class="panel-body">
+                                <div id="assignment-channels">
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+         </li>
+            <li class="widget-sidenav active">
+                    <a href="#">
+                        Topics <i class="fa fa-book"></i>
+                    </a>
+ 
+                    <ul class="collapse in">
+                        <li>
+                            <div class="panel panel-default widget-sidenav">
+                                <div class="panel-body">
+                                    <div id="tutor-channels">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+        
+             <li class="widget-sidenav active" style="visibility:hidden;">
+                    <a href="#">
+                        Users <i class="fa fa-user"></i>
+                    </a>
+ 
+                    <ul class="collapse in">
+                        <li>
+                            <div class="panel panel-default widget-sidenav">
+                                <div class="panel-body">
+                                    <div id="user-list">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+        </li>
+
+{%endblock%}
+ 
+{% block content %}
+    <div id="content-widgets"></div>
+{% endblock %}
+
+{% block js_include %}
+
+{%endblock%}
+
+
+{% block css_include %}
+
+{% endblock %}
+
+
+

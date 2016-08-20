@@ -1,0 +1,66 @@
+.react-s3-uploader{
+    background:#eee;
+    height:50px;
+}
+
+.progress{
+    height:100%;
+    border-radius:0px;
+    opacity:0.7;
+    visibility:hidden;
+}
+
+.progress .progress-bar{
+    margin-top:-50px;
+}
+.react-s3-uploader .progress-bar{
+    background-color:rgba(21,83,125,1);
+    opacity:0.5;
+    border-radius:0px;
+}
+
+.react-s3-uploader i{
+    font-size:20px;
+    line-height:25px;
+}
+
+.react-s3-uploader input{
+    position:absolute;
+    height:50px;
+    width:50px;
+}
+
+.react-s3-uploader .btn{
+    width:50px;
+    float:left;
+    overflow:hidden;
+    background-color:rgba(21,83,125,1);
+    height:50px;
+    border:0;
+    border-radius:0;
+    margin:0;
+    padding-top:14px;
+}
+
+.react-s3-uploader .fileupload{
+    position:relative;
+    overflow:hidden;
+}
+.react-s3-uploader .fileupload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.react-s3-uploader .filename{
+    font-size:20px;
+    line-height:50px;
+    color:#333;
+    padding-left:55px;
+}

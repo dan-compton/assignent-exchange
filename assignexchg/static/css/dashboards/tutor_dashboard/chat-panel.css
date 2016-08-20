@@ -1,0 +1,521 @@
+
+/*  CHANNEL HEADER */
+.divein-chat-controls{
+    overflow:hidden;
+    height:35px;
+    border-bottom:1px solid #ddd;
+    padding-bottom:1px;
+    margin:0;
+}
+
+.divein-chat-control{
+    background-color:#eee;
+    color:#333 !important;
+    font-size:12px !important;
+    font-weight:100 !important;
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+    padding:5px 5px 5px 5px;
+    height:40px;
+    line-height:25px;
+    display:inline-block;
+}
+
+.divein-chat-controls .divein-chat-control:hover{
+    cursor:pointer;
+    opacity:0.5;
+}
+
+.divein-chat-controls .divein-chat-control i{
+    color:#333;
+}
+#ChanelHeader{
+    padding:0;
+}
+#ChanelHeader.li{
+    padding:0;
+}
+
+.channel-top-heading{
+    overflow:hidden;
+    padding:5px 5px 5px 5px;
+    color:rgba(42,126,185,1);
+    color:rgba(255,255,255,0.6);
+    font-size:20px !important;
+    color:#333;
+    border-bottom:1px solid #eee;
+    display:block;
+    font-weight:100;
+}
+.channel-top-heading .channel-title{
+    float:left;
+}
+.channel-top-heading .controls{
+    float:right;
+}
+
+.media, .media-body{
+   overflow:show; 
+}
+.media-heading{
+    width:500px;
+}
+
+
+.tutor-subject{
+    margin-left:2px;
+    font-weight:200;
+}
+
+.chat-notification{
+    width:300px;
+    margin:0 auto;
+    text-align:center;
+    font-size:15px;
+    opacity:0.7;
+}
+
+.chat-panel{
+   border:0; 
+   height:;
+   margin:0;
+   padding:0;
+}
+
+.chat-panel .panel-footer{
+    display:block;
+}
+
+.chat-panel .panel-body{
+   padding:0;
+   height:calc(100vh - 220px);
+}
+
+.chat-panel ul, li{
+    list-style-type:none;
+    font-size:18px;
+    font-weight:200;
+    padding:0;
+}
+
+.chat-panel li{
+    height:100%;
+    width:99%;
+    padding:0;
+    margin-left:3px;
+    border-radius:0px;
+    padding:10px 10px 10px 10px;
+    background:rgba(0,10,10,0.0) !important;
+}
+
+/*
+    STYLES FOR MESSAGES
+*/
+.message-profileimage img{
+    width:60px;
+    border-radius:3px;
+}
+
+
+/*
+    STYLES FOR MESSAGES (TUTORS)
+*/
+.tutor-message .message-header{
+    min-width:300px;
+}
+
+.tutor-message .message-header{
+    padding:0;
+    padding-top:5px !important;
+    margin:0;
+    font-size:20px;
+    margin-left:20px;
+    margin-top:-5px;
+}
+
+.tutor-message .message-profileimage img{
+    width:60px;
+    border-radius:3px;
+}
+
+.tutor-message i{
+    color:red;
+}
+
+.tutor-message .message-footer{
+    margin-top:-20px;
+    float:left; 
+    margin-left:90px;
+    opacity:0.6;
+}
+.tutor-message .message-footer i{
+   margin-left:5px; 
+   font-size:14px;
+}
+
+.tutor-message blockquote{
+    overflow:hidden;
+    border-radius:5px;
+    font-size:15px;
+    max-width:800px;
+    border-radius:0px !important;
+    border-width:4px;
+    border-color: rgba(21,83,125,0.1) !important;
+    background-color: rgba(21,83,125,0.05) !important;
+}
+
+.tutor-message .message-header{
+    font-size:15px;    
+    border-radius:5px;
+    line-height:15px;
+    padding:0px;
+}
+
+.tutor-message .assignment {
+    margin-top:40px;
+    margin-left:0;
+}
+
+.tutor-message .file img{
+    display:block;
+    width:auto;
+    height:auto;
+    margin:auto;
+}
+
+.tutor-message .message-body{
+    width:auto;
+}
+
+.tutor-message .file a{
+    font-size:20px;
+    line-height:48px;
+}
+
+
+.chat-panel li #username{
+    float:left;
+    color:#333;
+    font-size:14px;
+    padding-right:5px;
+}
+
+/*
+    GENERAL MESSAGING STYLES
+
+*/
+.message-header{
+    min-width:300px;
+    padding:0;
+    margin:0;
+    font-size:20px;
+    padding:0px 5px 5px 5px;
+    margin-left:20px;
+    line-height:20px;
+}
+
+.message-header i{
+    float:left;
+    padding-right:3px;
+    color:#333;
+}
+
+.message-footer{
+    margin-top:-20px;
+    float:left; 
+    margin-left:90px;
+    opacity:0.6;
+}
+.student-message .message-footer i{
+   margin-left:5px; 
+   font-size:14px;
+}
+
+.message-body blockquote{
+    overflow:hidden;
+    padding-top:10px;
+    border-radius:5px;
+    font-size:15px;
+    max-width:800px;
+}
+ 
+.togetherjs-cursor{
+    display:none;
+}
+
+.assignment {
+    margin-top:40px;
+    margin-left:0;
+}
+.assignment-control-chat{
+   float:left; 
+    margin-right:10px;
+    cursor:pointer;
+}
+.assignment-control-chat a{
+    text-decoration:none;
+    color:#fefefe;
+}
+.assignment-control-dropdown{
+    cursor:pointer;
+}
+
+.file img{
+    display:block;
+    width:auto;
+    height:auto;
+    margin:auto;
+}
+
+.message-body{
+    width:auto;
+}
+
+.file a{
+    font-size:20px;
+    line-height:48px;
+}
+
+
+/* 
+    STUDENT 
+    MESSAGING STYLES
+*/
+
+.student-message i{
+    color:red;
+}
+
+.student-message .message-footer{
+    margin-top:-20px;
+    float:left; 
+    margin-left:90px;
+    opacity:0.6;
+}
+.student-message .message-footer i{
+   margin-left:5px; 
+   font-size:14px;
+}
+
+.student-message blockquote{
+    overflow:hidden;
+    padding-top:10px;
+    border-radius:5px;
+    font-size:15px;
+    max-width:800px;
+}
+
+.student-message .message-header{
+    font-size:15px;    
+}
+ 
+.student-message .assignment {
+    margin-top:40px;
+    margin-left:0;
+}
+
+.student-message .file img{
+    display:block;
+    width:auto;
+    height:auto;
+    margin:auto;
+}
+
+.student-message .message-body{
+    width:auto;
+}
+
+.student-message .file a{
+    font-size:20px;
+    line-height:48px;
+}
+
+
+
+/*
+    OVERRIDING
+    STYLES FOR ASSIGNMENTS RENDERED AS MESSAGES
+*/
+
+li.assignment-list-item .assignment-top-heading{
+    overflow:hidden;
+    background: rgba(21,83,125,0.9) !important;
+    color:rgba(255,255,255,0.8);
+    border-radius:2px;
+    line-height:40px;
+    padding-right:10px;
+    margin:0;
+}
+
+li.assignment-list-item .assignment-title{
+    float:left;
+    margin-left:20px;
+    font-size:18px;
+    font-style:italic;
+    font-weight:200;
+}
+
+
+li.assignment-list-item .controls{
+    float:right;
+}
+
+li.assignment-list-item .assignment-value-dollars{
+    display:none;
+}
+li.assignment-list-item .assignment-value-minutes{
+    padding-right:10px;
+    overflow:hidden;
+    height:100%;
+    font-size:17px;
+    font-weight:100;
+    padding-left:10px;
+    border-right:1px solid #eee;
+    float:left;
+}
+li.assignment-list-item .assignment-control-dropdown{
+    float:right; 
+}
+
+li.assignment-list-item i{
+    font-weight:200 !important;
+    font-size:15px;
+    padding-left:2px;
+    color:rgba(255,255,255,0.8);
+}
+
+li.assignment-list-item {
+    padding:0;
+    margin-left:-1px;
+    border:1px solid #ccc;
+}
+
+.assignment-list-item .controls .btn :hover{
+}
+
+.assignment-list-item .controls .btn{
+    height:40px;
+    line-height:26px;
+    border-radius:0;
+}
+
+div.assignment-control-chat.btn{
+    background:none;
+}
+div.assignment-control-chat.btn:hover{
+    background:rgba(255,255,255,0.1);
+}
+
+.assignment-list-item .btn i{
+    opacity:1;
+}
+.assignment-list-item .btn span{
+    font-size:14px !important; 
+}
+
+.assignment{
+    
+    margin-top:5px;
+    padding:5px 5px 5px 5px;
+}
+
+.assignment .message-body{
+    display:block;
+    padding-right:10px;
+    font-weight:300;
+}
+.assignment .message-body .assignment-datetime{
+    float:left;
+    padding-left:5px;
+    font-weight:300;
+    font-size:11px;
+    color:#999
+}
+
+.assignment .message-body pre{
+    width:100%;
+    border:0;
+}
+
+.assignment .message-header{
+    overflow:hidden;
+    margin-left:0px; 
+}
+
+.assignment .well{
+    margin-left:10px;
+    background-color:#fefefe;
+    border-radius:2px;
+    color:#777;
+}
+
+
+
+
+.chat-panel li #time{
+    color:#ccc;
+    font-size:14px;
+    float:left;
+}
+
+.chat-panel li .arrow-up {
+    width: 0; 
+    height: 0; 
+    width: 0; 
+    height: 0; 
+    color:rgba(217,237,247,0.3);
+    border-top: 0px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-right:20px solid rgba(217,237,247,0.3);
+    margin-left:-30px; 
+    margin-top:-10px;
+}
+
+
+.chat-panel li .well{
+    padding:5px 5px 5px 5px;
+}
+
+
+.chat-footer{
+    height:200px;
+    width:100%;
+    border-radius:0px;
+    padding:0px;
+}
+
+.chat-footer .chat-input-row{
+    width:100%;
+}
+.chat-footer #chatOptions{
+    background-color:#222;
+    padding:0px;
+    float:left;
+}
+
+.chat-footer #chatOptions i{
+    padding:20px 20px 20px 20px;
+}
+
+.chat-footer #chatOptions:hover{
+    background-color:#333;
+    cursor:pointer;
+}
+
+
+.chat-footer #chatTextArea {
+    color:#333;
+    width:100%;
+    font-size:20px;
+    height:150px;
+    height:48px;
+    overflow:hidden;
+}
+
+.chat-footer textarea, input{
+    padding-left:10px;
+    height:100%;
+    resize:vertical;
+    width:100%;
+}
+

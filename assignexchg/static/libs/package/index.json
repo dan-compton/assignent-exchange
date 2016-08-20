@@ -1,0 +1,68 @@
+{
+  "name": "assignment-exchange",
+  "version": "1.0.0",
+  "description": "An online tutoring platform for computer science",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "babelify": "^5.0.4",
+    "bower": "^1.4.1",
+    "browserify": "9.0.3",
+    "express": "^4.12.4",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-cli": "^0.2.0",
+    "gulp-install": "^0.4.0",
+    "gulp-livereload": "^3.8.0",
+    "gulp-nodemon": "^2.0.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-react": "^3.0.1",
+    "gulp-size": "^1.2.1",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.5",
+    "gulp-webpack": "^1.4.0",
+    "joi": "^6.4.3",
+    "jquery": "^2.1.4",
+    "jquery-ui": "^1.10.5",
+    "jsx-loader": "^0.13.2",
+    "livereactload": "latest",
+    "marked": "^0.3.3",
+    "node-libs-browser": "^0.5.2",
+    "nodemon": "1.3.7",
+    "path": "^0.11.14",
+    "react": "^0.13.3",
+    "react-bootstrap": "^0.23.4",
+    "react-dropzone": "^1.2.0",
+    "react-mini-router": "^1.1.6",
+    "react-validation-mixin": "^4.1.0",
+    "reactify": "1.1.0",
+    "socket.io": "^0.9.16",
+    "socket.io-client": "^0.9.16",
+    "vinyl": "^0.5.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "2.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dan-compton@github.com/dan-compton/assignment-exchange"
+  },
+  "author": "Dan Compton",
+  "license": "Proprietary",
+  "bugs": {
+    "url": "https://github.com/dan-compton/assignment-exchange/issues"
+  },
+  "homepage": "https://github.com/dan-compton/assignment-exchange"
+}
